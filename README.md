@@ -70,7 +70,7 @@ lr         = 0.0006
 ```
 
 ```python
-trainer.train(model, trainloader, testloader, (n_epochs, batch_size, lr))
+trainer.train(model, trainloader, (n_epochs, batch_size, lr))
 
 acc1, nll = trainer.test_model(model, testloader)
 ```
