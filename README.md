@@ -7,7 +7,7 @@ The architecture is optimized for efficiency and differs greatly from the archit
 - Pooling latents instead of a learnable [CLS] token.
 - No projection of the patch encodings.
 - MLP head is optional.
-- granularity of the patch grid dimension ($G$) can be specified explicitly.
+- granularity of the patch grid dimension (G) can be specified explicitly.
 - PatchDropout can be applied.
 - On the fly encoding can be applied.
 
